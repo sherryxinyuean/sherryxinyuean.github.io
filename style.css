@@ -1,0 +1,175 @@
+body {
+  font-family: Courier, sans-serif;
+  display: flex;
+  flex-direction: column;
+  margin:0;
+  padding:0;
+  background-color: #f9f9f9;
+}
+
+.sidebar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 200px;
+  background-color: #333;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 20px;
+  z-index: 1;
+}
+
+
+.sidebar img {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 15px;
+  box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.8);
+}
+
+.sidebar h1 {
+  font-size: 24px;
+  margin-bottom: 40px;
+}
+
+.sidebar nav {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;  
+}
+
+.sidebar ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.sidebar li {
+  margin-bottom: 10px;
+}
+
+.sidebar a {
+  display: block;
+  color: #fff;
+  text-decoration: none;
+  padding: 10px;
+  width: 150px;
+  border-radius: 5px;
+}
+
+.sidebar a:hover {
+  color: #fff;
+  text-decoration: underline;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.wrapper {
+  margin-left: 220px;
+  padding: 30px;
+  box-sizing: border-box;
+}
+
+section#about {
+  padding: 20px;
+  align-items: center;
+  line-height:1.5;
+}
+
+
+section#background {
+  padding: 20px;
+  align-items: center;
+  line-height:1.5;
+}
+
+section#projects {
+  padding: 20px;
+  align-items: center;
+  line-height:1.5;
+}
+
+section#contact {
+  padding: 20px;
+  align-items: center;
+  height: 200px;
+  line-height:1.5;
+}
+
+#contact img {
+  width: 30px;
+  height: 30px;
+  margin-right: 10px;
+}
+
+.footer {
+  margin-left: 220px;
+  position: relative;
+  bottom: 0;
+  width: calc(100% - 220px);
+  height: 50px;
+  background-color: transparent;
+  color: #333;
+  text-align: center;
+  margin-top: 50px;  
+  font-size: 10px;
+  line-height:.5;
+}
+
+@media screen and (min-width: 1366px) {
+  .wrapper {
+    width: calc(100% - 220px); /* stretch width */
+  }
+  
+  section {
+    width: 70%; /* stretch width */
+    margin: 0 auto; /* center horizontally */
+  }
+}
+
+@media screen and (min-width: 1366px) {
+  .wrapper {
+    width: calc(100% - 220px); /* stretch width */
+  }
+  
+  section {
+    margin: 0 auto; /* center horizontally */
+  }
+}
+
+h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  display: flex;
+  align-items: center;
+}
+
+li img {
+  margin-right: 15px;
+  height:10px;
+  width: 10px;
+}
+
+li span {
+  font-size: 16px;
+  font-family: Courier New, sans-serif;
+}
