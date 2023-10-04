@@ -136,6 +136,8 @@ section{
 h2 {
   font-size: 24px;
   margin-bottom: 20px;
+  margin-right: 10px;
+  display:inline;
 
 }
 
